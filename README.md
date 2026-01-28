@@ -1,5 +1,5 @@
 # esp32-rgb-webserver
-Control a rgb light using ESPAsyncWebServer
+Control a rgb LED using ESPAsyncWebServer
 <br>
 Red Pin (LED)** -->  220 Ω Resistor -->  GPIO 23
 <br>
