@@ -1,8 +1,12 @@
 # esp32-rgb-webserver
 Control a rgb light using ESPAsyncWebServer
+(<br>)
 Red Pin (LED)** -->  220 Ω Resistor -->  GPIO 23
+(<br>)
 Green Pin (LED)** -->  220 Ω Resistor -->  GPIO 22
+(<br>)
 Blue Pin (LED)** -->  220 Ω Resistor -->  GPIO 21
+(<br>)
 Common (Cathode) pin to esp32 ground
 
 
