@@ -19,11 +19,11 @@ const char index_html[] PROGMEM = R"rawliteral(
   <title>ESP RGB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head><body>
-  <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <div style="display: flex;  flex-wrap: wrap; flex-direction: column; align-items: center;">
   <h1 style="width: 100%; text-align: center;">ESP32 Web Server</h1>
-  <label for="redColor" id="redValue">Red: 0</label> <input type="range" autocomplete="off" min="0" max="255" value="0" name="redColor" id="redColor" onchange="updateColor(this.id, this.value)"> 
-  <label for="greenColor" id="greenValue">Green: 0</label> <input type="range" autocomplete="off" min="0" max="255" value="0" name="greenColor" id="greenColor" onchange="updateColor(this.id, this.value)"> 
-  <label for="blueColor" id="blueValue">Blue: 0</label> <input type="range" autocomplete="off" min="0" max="255" value="0" name="blueColor" id="blueColor" onchange="updateColor(this.id, this.value)"> 
+  <label for="redColor" id="redValue">Red: 0</label> <input style="max-width: 50%; padding: 10px;" type="range" autocomplete="off" min="0" max="255" value="0" name="redColor" id="redColor" onchange="updateColor(this.id, this.value)"> 
+  <label for="greenColor" id="greenValue">Green: 0</label> <input style="max-width: 50%; padding: 10px;" type="range" autocomplete="off" min="0" max="255" value="0" name="greenColor" id="greenColor" onchange="updateColor(this.id, this.value)"> 
+  <label for="blueColor" id="blueValue">Blue: 0</label> <input style="max-width: 50%; padding: 10px;" type="range" autocomplete="off" min="0" max="255" value="0" name="blueColor" id="blueColor" onchange="updateColor(this.id, this.value)"> 
   <span style="width: 100%; height: 0;"></span>
   <div id="example" style="padding: 50px; margin-top: 10px; width: 25%; border: 1px solid black; background-color: black;"></div>
   </div>
